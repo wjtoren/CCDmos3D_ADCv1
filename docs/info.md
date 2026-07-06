@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+binary search adc, 8bits
 
 ## How to test
 
-Explain how to use your project
+The circuit generates it's own input signal and gives the output of this to first analog pin, and feeds this signal into the ADC and is converted to a digital signal, which is converted again by a DAC to an analog signal that is connected to the second analog output pin. Both analog output signals are compared and must be equal.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Power source for the chip, plus a scope to measure both output signals.
