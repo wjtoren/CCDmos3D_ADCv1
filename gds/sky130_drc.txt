@@ -1554,17 +1554,5 @@
   </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'m4.3_a'</category>
-   <cell>tt_um_CCDmos3D</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (137.21,5.915;137.21,6.015;137.41,6.015;137.41,5.915)</value>
-   </values>
-  </item>
  </items>
 </report-database>
