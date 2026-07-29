@@ -2,8 +2,8 @@
 <report-database>
  <description>SKY130 DRC runset</description>
  <original-file>/home/toren/Projects/CCDmos3D_ADCv1/gds/tt_um_CCDmos3D.gds</original-file>
- <generator>drc: script='/home/toren/CCDmos3D/open_pdks/sky130/sky130A/libs.tech/klayout/pymacros/../drc/sky130A_mr.drc'</generator>
- <top-cell>tt_um_CCDmos3D</top-cell>
+ <generator>drc: script='/home/toren/CCDmos3D/open_pdks/sky130/sky130A/libs.tech/klayout/macros/run_drc_full.lydrc'</generator>
+ <top-cell>ADC_ASIC_KL</top-cell>
  <tags>
  </tags>
  <categories>
@@ -584,6 +584,24 @@
    </categories>
   </category>
   <category>
+   <name>ct.3</name>
+   <description>ct.3 : min. width of ring-shaped mcon : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ct.3_a</name>
+   <description>ct.3_a : max. width of ring-shaped mcon : 0.175um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>ct.3_b</name>
+   <description>ct.3_b: ring-shaped mcon must be enclosed by areaid_sl</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
    <name>ct.4</name>
    <description>ct.4 : mcon should covered by li</description>
    <categories>
@@ -670,6 +688,24 @@
   <category>
    <name>via.2</name>
    <description>via.2 : min. via spacing : 0.17um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.3</name>
+   <description>via.3 : min. width of ring-shaped via : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.3_a</name>
+   <description>via.3_a : max. width of ring-shaped via : 0.205um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via.3_b</name>
+   <description>via.3_b: ring-shaped via must be enclosed by areaid_sl</description>
    <categories>
    </categories>
   </category>
@@ -766,6 +802,24 @@
   <category>
    <name>via2.2</name>
    <description>via2.2 : min. via2 spacing : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.3</name>
+   <description>via2.3 : min. width of ring-shaped via2 : 0.2um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.3_a</name>
+   <description>via2.3_a : max. width of ring-shaped via2 : 0.205um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via2.3_b</name>
+   <description>via2.3_b: ring-shaped via2 must be enclosed by areaid_sl</description>
    <categories>
    </categories>
   </category>
@@ -934,6 +988,24 @@
   <category>
    <name>via4.2</name>
    <description>via4.2 : min. via4 spacing : 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.3</name>
+   <description>via4.3 : min. width of ring-shaped via4 : 0.8um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.3_a</name>
+   <description>via4.3_a : max. width of ring-shaped via4 : 0.805um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>via4.3_b</name>
+   <description>via4.3_b: ring-shaped via4 must be enclosed by areaid_sl</description>
    <categories>
    </categories>
   </category>
@@ -1474,7 +1546,7 @@
  </categories>
  <cells>
   <cell>
-   <name>tt_um_CCDmos3D</name>
+   <name>ADC_ASIC_KL</name>
    <variant/>
    <layout-name/>
    <references>
