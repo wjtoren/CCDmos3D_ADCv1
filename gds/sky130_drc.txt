@@ -3,7 +3,7 @@
  <description>SKY130 DRC runset</description>
  <original-file>/home/toren/Projects/CCDmos3D_ADCv1/gds/tt_um_CCDmos3D.gds</original-file>
  <generator>drc: script='/home/toren/CCDmos3D/open_pdks/sky130/sky130A/libs.tech/klayout/macros/run_drc_full.lydrc'</generator>
- <top-cell>ADC_ASIC_KL</top-cell>
+ <top-cell>Driver</top-cell>
  <tags>
  </tags>
  <categories>
@@ -1546,7 +1546,7 @@
  </categories>
  <cells>
   <cell>
-   <name>ADC_ASIC_KL</name>
+   <name>Driver</name>
    <variant/>
    <layout-name/>
    <references>
