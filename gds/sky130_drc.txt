@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>SKY130 DRC runset</description>
- <original-file>/home/toren/Projects/CCDmos3D_ADCv1/gds/tt_um_CCDmos3DMagic.gds</original-file>
+ <original-file>/home/toren/Projects/CCDmos3D_ADCv1/gds/tt_um_CCDmos3DKlayout.gds</original-file>
  <generator>drc: script='/home/toren/CCDmos3D/open_pdks/sky130/sky130A/libs.tech/klayout/macros/run_drc_full.lydrc'</generator>
  <top-cell>tt_um_CCDmos3D</top-cell>
  <tags>
